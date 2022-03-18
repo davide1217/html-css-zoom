@@ -1,0 +1,55 @@
+/* header */
+header{
+  height: 70px
+}
+
+header > div{
+  margin-right: 5px;
+}
+
+header a{
+  padding: 5px 6px;
+  background-color: rgba(74, 74, 74, .5);;
+  border-radius: 5px;
+}
+
+header div:first-child a{
+  padding: 4px 6px;
+}
+
+#margin-right{
+  margin-right: 3px;
+}
+/* /header */
+
+
+/* main */
+main .container{
+height: calc(100vh - 140px);
+overflow: scroll;
+}
+
+.partecipant div{
+  color: white;
+  padding: 5px;
+  background-color: rgba(74, 74, 74, .5);
+}
+
+.partecipant div i{
+  background-color: rgba(74, 74, 74, .5);
+}
+
+footer{
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partecipant{
+  background-image: url(zoom.jpeg);
+  background-size: cover;
+  background-position: center;
+  flex-basis: calc((100% - 28px) / 7);
+  height: 120px;
+  margin: 5px 2px;
+}
+
