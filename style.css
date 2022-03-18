@@ -29,27 +29,55 @@ height: calc(100vh - 140px);
 overflow: scroll;
 }
 
-.partecipant div{
-  color: white;
-  padding: 5px;
-  background-color: rgba(74, 74, 74, .5);
-}
-
-.partecipant div i{
-  background-color: rgba(74, 74, 74, .5);
-}
-
-footer{
-  justify-content: space-between;
-  align-items: center;
-}
-
 .partecipant{
   background-image: url(zoom.jpeg);
   background-size: cover;
   background-position: center;
-  flex-basis: calc((100% - 28px) / 7);
+  flex-basis: 180px;
   height: 120px;
   margin: 5px 2px;
 }
+
+.partecipant div{
+  padding: 5px;
+  background-color: rgba(74, 74, 74, .5);
+}
+/* /main */
+
+
+/* footer */
+footer{
+  justify-content: space-between;
+  height: 70px;
+  background-color: rgba(74, 74, 74, .5);
+}
+
+footer .column i{
+font-size: 20px;
+margin-bottom: 5px;
+}
+
+footer .chevron{
+  margin-left: 15px;
+}
+
+footer .item{
+  margin-left: 15px;
+}
+
+.green{
+  color: #5EC933;
+}
+
+footer .right{
+  height: 70px;
+  background-color: rgb(74, 74, 74, .5);
+}
+
+footer .right a{
+  color: red;
+  padding: 0 15px;
+}
+
+
 
